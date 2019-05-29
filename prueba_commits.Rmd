@@ -6,6 +6,17 @@ output: pdf_document
 ---
 ##Esto es una prueba
 ```{r}
-matrix(c(2,3,4,5,6,9),nrow=3,ncol=2)
+b = matrix(c(2,3,4),nrow=1,ncol=3)
+b
 ```
 **archivo** nuevo
+```{r}
+a = matrix(c(2,3,4),nrow=3,ncol=1)
+a
+```
+
+## Resultado de multiplicar matriz *b x a*
+```{r}
+b%*%a
+```
+
