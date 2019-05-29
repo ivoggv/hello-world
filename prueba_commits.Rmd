@@ -1,0 +1,11 @@
+---
+title: "Prueba de cambios"
+author: "Ivo Giulietti"
+date: "5/29/2019"
+output: pdf_document
+---
+##Esto es una prueba
+```{r}
+matrix(c(2,3,4,5,6,7),nrow=3,ncol=2)
+```
+**archivo** nuevo
